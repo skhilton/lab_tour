@@ -1,0 +1,65 @@
+
+
+This is RAxML version 7.7.6 released by Alexandros Stamatakis on August 29 2013.
+
+With greatly appreciated code contributions by:
+Andre Aberer (HITS)
+Simon Berger (HITS)
+Nick Pattengale (Sandia)
+Wayne Pfeiffer (SDSC)
+Akifumi S. Tanabe (NRIFS)
+
+
+Alignment has 446 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 0.03%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+ML estimate of 25 per site rate categories
+
+Likelihood of final tree will be evaluated and optimized under GAMMA
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 446
+Name: No Name Provided
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+
+RAxML was called as follows:
+
+raxml -s H1_seqs.fasta -n H1_tree.newick -m GTRCAT -p1 -T 2 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.346 0.186 0.225 0.242 
+
+Inference[0]: Time 0.581934 CAT-based likelihood -6792.863875, best rearrangement setting 5
+alpha[0]: 1.000000 rates[0] ac ag at cg ct gt: 0.733928 4.138716 0.363313 0.113044 5.196967 1.000000 
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -7934.019901 tree written to file /Users/sarah/Desktop/lab_tour/RAxML_result.H1_tree.newick
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -7934.019901 .... 
+
+Final GAMMA-based Score of best tree -7934.019901
+
+Program execution info written to /Users/sarah/Desktop/lab_tour/RAxML_info.H1_tree.newick
+Best-scoring ML tree written to: /Users/sarah/Desktop/lab_tour/RAxML_bestTree.H1_tree.newick
+
+Overall execution time: 1.421561 secs or 0.000395 hours or 0.000016 days
+
